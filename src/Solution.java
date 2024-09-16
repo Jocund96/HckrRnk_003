@@ -6,7 +6,7 @@ public class Solution {
         Scanner scan = new Scanner(System.in);
         String s = scan.nextLine();
         //String x = s.replaceAll("[?,. _'@;]", ";");
-        String x = s.replaceAll("[?,. _'@;]", " ");
+        String x = s.replaceAll("[?!,. _'@;]", " ");
         String[] y = x.split("\\s+");
         /*
         /TIP We use the regular expression \\s+ to split the string.
